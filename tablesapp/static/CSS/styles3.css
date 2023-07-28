@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header>h1 {
+    color: #24272E;
+    text-align: center;
+    font-size: 35px;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+
+body{
+    font-family: Asap, sans-serif;
+    font-size: 15.5px;
+    background-color: #24272E;
+    padding-bottom: 0px;
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 160px;
+}
+
+table td {
+    border: 1px solid #ccc;
+}
+table .absorbing-column {
+    width: 100%;
+}
+
+.container-newone{
+    align-content: center;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 120px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
